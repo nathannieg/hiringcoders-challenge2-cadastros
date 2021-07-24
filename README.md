@@ -1,7 +1,9 @@
 # Hiring Coders - Desafio #2 - Criar um sistema de cadastro de clientes e produtos
 
-[Hiring Coders](https://www.hiringcoders.com.br/)
+[Hiring Coders](https://www.hiringcoders.com.br/).
+
 [Gama Academy](https://www.gama.academy/).
+
 [VTEX](https://vtex.com/br-pt/).
 
 ## Conteúdo
@@ -25,8 +27,8 @@ O desafio é usar uma das tecnologias aprendidas ao longo do programa para const
 
 ### Links
 
-- Solução no Githug: [Solução no Github]()
-- Link da página: [Link da página]()
+- Solução no Githug: [Solução no Github](https://github.com/nathannieg/hiringcoders-challenge2-cadastros)
+- Link da página: [Link da página](https://sistemadecadastros-ng.netlify.app/)
 
 ## Meu processo
 
