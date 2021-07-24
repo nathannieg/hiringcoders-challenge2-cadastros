@@ -1,0 +1,106 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*o que é?*/
+}
+
+html {
+  font-size: 15px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* o que é? */
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* AMBOS */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-size: 1rem;
+  border: solid 0.5rem #e83a43;
+}
+
+#formulario {
+  border: solid 0.5rem #e83a43;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 2px 2px #888888;
+}
+
+.label-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.campos {
+  font-size: 1rem;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.botao {
+  font-size: 1rem;
+  margin: 2rem 1rem;
+  padding: 0.5rem 2rem;
+  border: none;
+  background-color: #e83a43;
+  color: #fff;
+  font-weight: bolder;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 0 0.3125rem #919191;
+  border-radius: 3rem;
+}
+
+.botao:hover {
+  background-color: #404040;
+  color: #fff;
+}
+
+/* CLIENTES */
+
+/* PRODUTOS */
+
+#div-pai-form {
+  display: flex;
+  flex-direction: row;
+}
+
+#dados-cliente {
+  display: inline-block;
+}
+
+#endereco-cliente {
+  display: inline-block;
+}

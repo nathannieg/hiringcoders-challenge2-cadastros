@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Produto</title>
+
+    <link rel="stylesheet" href="cliente-produto-style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Início do form -->
+      <form class="form-campos" id="formulario">
+        <!-- Primeiro label - Produto -->
+        <div class="label-input">
+          <label id="nomeProduto">Produto</label>
+          <input id="idNomeProduto" class="campos" type="text" />
+        </div>
+        <!-- Segundo label - Código do Produto -->
+        <div class="label-input">
+          <label id="codProduto">Código do produto</label>
+          <input id="idCodProduto" class="campos" type="text" />
+        </div>
+        <!-- Terceiro label - Quantidade -->
+        <div class="label-input">
+          <label id="qtde">Quantidade</label>
+          <input id="idQtde" class="campos" type="number" />
+        </div>
+        <span class="botoes">
+          <!-- Botão Cadastrar -->
+          <input
+            id="botaoCadastrarProduto"
+            class="botao"
+            type="submit"
+            value="Cadastrar"
+            name="cadastrar"
+          />
+          <!-- Botão Limpar-->
+          <input id="botaoLimpar" class="botao" type="reset" value="Limpar" />
+          <!-- Botão Home -->
+          <a href="index.html">
+            <button class="botao">Home</button>
+          </a>
+        </span>
+      </form>
+    </div>
+  </body>
+  <script src="/produtos.js"></script>
+</html>

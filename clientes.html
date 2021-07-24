@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Clientes</title>
+
+    <link rel="stylesheet" href="cliente-produto-style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form-campos" id="formulario" class="organizacao-dados">
+        <div id="div-pai-form">
+          <div id="dados-cliente">
+            <!-- Nome -->
+            <div class="label-input">
+              <label>Nome</label>
+              <input id="nome" class="campos" type="text" />
+            </div>
+
+            <!-- Email -->
+            <div class="label-input">
+              <label>E-mail</label>
+              <input id="email" class="campos" type="email" />
+            </div>
+
+            <!-- Telefone -->
+            <div class="label-input">
+              <label>Telefone</label>
+              <input id="telefone" class="campos" type="text" />
+            </div>
+
+            <!-- CPF -->
+            <div class="label-input">
+              <label>CPF</label>
+              <input id="cpf" class="campos" type="text" />
+            </div>
+          </div>
+
+          <div id="endereco-cliente">
+            <!-- Endereço -->
+            <div class="label-input">
+              <label>Endereço</label>
+              <input id="ender" class="campos" type="text" />
+            </div>
+
+            <!-- Numero -->
+            <div class="label-input">
+              <label>Número</label>
+              <input id="numero" class="campos" type="text" />
+            </div>
+
+            <!-- Complemento-->
+            <div class="label-input">
+              <label>Complemento</label>
+              <input id="complemento" class="campos" type="text" />
+            </div>
+
+            <!-- Bairro -->
+            <div class="label-input">
+              <label>Bairro</label>
+              <input id="bairro" class="campos" type="text" />
+            </div>
+
+            <!-- CEP -->
+            <div class="label-input">
+              <label>CEP</label>
+              <input id="cep" class="campos" type="text" />
+            </div>
+
+            <!-- Cidade -->
+            <div class="label-input">
+              <label>Cidade</label>
+              <input id="cidade" class="campos" type="text" />
+            </div>
+
+            <!-- UF -->
+            <div class="label-input">
+              <label>UF</label>
+              <input id="UF" class="campos" type="text" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Botões -->
+        <span class="botoes">
+          <input
+            id="botaoCadastrarCliente"
+            class="botao"
+            type="submit"
+            value="Cadastrar"
+            name="cadastrar"
+          />
+          <input class="botao" type="reset" value="Limpar" />
+          <!-- Botão Home -->
+          <a href="index.html">
+            <button class="botao">Home</button>
+          </a>
+        </span>
+      </form>
+    </div>
+  </body>
+  <script src="/clientes.js"></script>
+</html>
